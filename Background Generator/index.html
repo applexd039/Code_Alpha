@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Background Generator</h1>
+        <div id="color-picker">
+            <label for="color1">Color 1:</label>
+            <input type="color" id="color1">
+        </div>
+        <div id="color-picker">
+            <label for="color2">Color 2:</label>
+            <input type="color" id="color2">
+        </div>
+        <div id="image-picker">
+            <label for="image">Background Image:</label>
+            <input type="file" id="image" accept="image/*">
+        </div>
+        <button id="generate-btn" onclick="generateBackground()">Generate</button>
+    </div>
+
+    <footer>
+        <p>Designed and Developed by <a href="https://github.com/applexd039" target="_blank">Atharva Pawar</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

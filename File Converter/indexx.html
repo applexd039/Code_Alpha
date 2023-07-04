@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>File Converter</h1>
+        <div id="file-picker">
+            <label for="file">Select a C++ file:</label>
+            <input type="file" id="file" accept=".cpp" onchange="convertFile()">
+        </div>
+        <div id="converted-content">
+            <h3>Converted Content:</h3>
+            <pre id="converted-text"></pre>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

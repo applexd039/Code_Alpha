@@ -1,0 +1,199 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --text-color:#ffffff;
+    --main-color:#000000;
+}
+section{
+    padding: 50px 10%;
+
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
+    background: #00b0b0;
+}
+.logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.logo span{
+    color: var(--main-color);
+}
+.navbar{
+    position: relative;
+    display: flex;
+}
+.navbar a{
+    font-size: 1rem;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: var(--text-color);
+
+}
+.input{
+    float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+.navbar a:hover{
+    color: var(--main-color);
+}
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: right;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.home-text{
+    margin-left: 5%;
+}
+.home-text h1{
+    font-size: 2.7rem;
+    
+}
+.home-text p{
+    font-size: 0.938rem;
+    margin:0.4rem 0 1.8rem;
+}
+.home-text span{
+    color:var(--main-color)
+}
+
+ 
+.btn{
+    padding: 10px 14px;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: 0.3rem;
+    font-size: 14px;
+}
+.btn :hover{
+    background: #8fc53d;
+}
+.title-price{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+.title-price h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box{
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.box span{
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-left: 12px;
+    color:var(--main-color);
+}
+.stars .bx{
+    color: var(--main-color);   
+                                                                               
+}
+.box .bx-cart{
+    position:relative;
+    
+    bottom: 0;
+    right: 0;
+    margin-left: 10px;
+    padding: 7px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 4px 0 4px 0;
+    background: var(--main-color);
+}
+.box .bx-cart:hover{
+    background: #8fc53d;
+
+}
+
+
+
+.box{
+    float: left;
+  width: 33.33%;
+  padding: 9px;
+  margin-left: auto;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #701ef4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+    padding: 2px 10px;
+    font-weight: 400;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 0.5px;
+    margin-left: 10px;
+    margin-right: 1px;
+    
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }

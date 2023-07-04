@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#color-picker, #image-picker {
+    margin-bottom: 20px;
+}
+
+#image-picker input[type="file"] {
+    display: none;
+}
+
+#image-picker label {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4286f4;
+    color: #fff;
+    cursor: pointer;
+}
+
+#image-picker label:hover {
+    background-color: #3366cc;
+}
+
+/* Same CSS styles as before */
+
+#contrast-color-picker {
+    margin-bottom: 20px;
+}
+/* Same CSS styles as before */
+
+#generate-btn {
+    padding: 8px 16px;
+    background-color: #4286f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#generate-btn:hover {
+    background-color: #3366cc;
+}
+/* Same CSS styles as before */
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
